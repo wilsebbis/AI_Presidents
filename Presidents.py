@@ -321,7 +321,6 @@ def main():
         
     if choice == "Y" or choice == "N":
         j = 0
-        print(re.split("[0-9]+\.", description))
         for i in re.split("[0-9]+\.", description):
             if(len(i) > 1 and i[1] == "A"):
                 j += 1
