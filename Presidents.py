@@ -282,7 +282,7 @@ def func(description, num):
 
     super_final_video = clips_array([[complete_video], [clip2]])
 
-    super_final_video.write_videofile("video" + str(num) + ".mp4",
+    super_final_video.write_videofile(confidential.video_location + "video" + str(num) + ".mp4",
                         codec='libx264', 
                         audio_codec='aac', 
                         temp_audiofile='temp-audio.m4a', 
